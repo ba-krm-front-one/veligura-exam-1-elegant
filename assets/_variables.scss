@@ -1,0 +1,25 @@
+$text-white: #ffffff;
+$text-color: #fffefe;
+$font-family: "Lato", sans-serif;
+$font-family-title: "Raleway", sans-serif;
+
+@mixin line-1{
+  width: 86px;
+  height: 2px;
+  border: none;
+  background-color: #ffffff;
+}
+@mixin line-2{
+  width: 86px;
+  height: 2px;
+  border: none;
+  background-color: #222222;
+}
+@mixin title{
+  color: #222222;
+  font-family: $font-family-title;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+}
